@@ -16,5 +16,4 @@ fun main(){
     println(seconds)
     println(partOfYear)
     println(apogee)
-
 }
