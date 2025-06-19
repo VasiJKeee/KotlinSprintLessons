@@ -6,7 +6,6 @@ fun main(): Unit {
     var surname = "Андреева"
     var age = 20
     println("$surname $name $lastName, $age")
-
     surname = "Сидорова"
     age = 22
     println("$surname $name $lastName, $age")
