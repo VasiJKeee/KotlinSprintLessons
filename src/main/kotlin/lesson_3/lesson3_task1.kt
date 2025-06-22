@@ -1,10 +1,11 @@
 package org.example.lesson_3
 
-fun main (){
+fun main() {
 
-    var textMorning = "доброе утречко епрст, "
-    var textEvening = "добрый вечер епрст, "
-    var name = "Адрей"
+    val textMorning = "доброе утречко "
+    val textEvening = "добрый вечер "
+    val name = "Адрей"
+
     println("$textMorning$name")
     println("$textEvening$name")
 
