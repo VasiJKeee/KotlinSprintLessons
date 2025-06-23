@@ -4,13 +4,15 @@ fun main() {
 
     var from = "E2"
     var to = "E4"
-    var move = "$from-$to"
+    var moveNumber = 1
+    var move = "$from-$to;$moveNumber"
 
     println(move)
 
     from = "D2"
     to = "D3"
-    move = "$from-$to"
+    moveNumber += moveNumber
+    move = "$from-$to;$moveNumber"
 
     println(move)
 
