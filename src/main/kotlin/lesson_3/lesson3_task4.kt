@@ -11,7 +11,7 @@ fun main() {
 
     from = "D2"
     to = "D3"
-    moveNumber += moveNumber
+    moveNumber++
     move = "$from-$to;$moveNumber"
 
     println(move)
